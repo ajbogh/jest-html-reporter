@@ -32,7 +32,7 @@ Configure Jest to process the test results by adding the following entry to the 
 ```JSON
 "reporters": [
 	"default",
-	["./node_modules/jest-html-reporter", {
+	["jest-html-reporter", {
 		"pageTitle": "Test Report"
 	}]
 ]
